@@ -1,0 +1,89 @@
+html {
+    background-color: #7f8c8d;
+    font-family: Roboto Slab, sans-serif;
+    text-align: center;
+    outline: none;
+}
+h1 {
+    font-size: 5vw;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 5px;   
+}
+#description {
+    font-size: 2vw;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;  
+}
+main {
+    background-color: white;
+    margin: 25px;
+    border-radius: 4px;
+}
+.label {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.input {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+}
+.input-field {
+    height: 20px;
+    width: 50%;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+.dropdown {
+    height: 35px;
+    width: 200px;
+    padding: 5px;
+    margin: 10px;  
+    margin-top: 15px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+.radio, .checkbox {
+    margin: 10px;
+    margin-top: 20px;
+}
+#text-box {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#submit {
+    background-color: #59ace0;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    height: 40px;
+    width: 96px;
+    margin: 20px;
+    padding: 10px;
+    border: 0px solid;
+}
+#submit:hover {
+    background-color: #cf0f04;
+}
+.icon {
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+

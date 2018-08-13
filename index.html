@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Star Wars Survey</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+
+    
+    </head>
+<body>
+    <header>
+    <h1 id="title">Star Wars</h1>
+    </header>
+    <main>
+        <p id="description">A survey on the Star Wars movies</p>
+    <form id="survey-form">
+        <div class="label">
+            <label id="name-label">* Name:</label>  
+            </div>
+        <div class="input">
+            <input autofocus type="text" class="input-field" id="name" placeholder="Enter Your Name" required>
+            </div>
+        <div class="label">
+            <label id="email-label">* Email:</label>
+        </div>
+        <div class="input">
+            <input type="email" class="input-field" id="email" placeholder="Enter Your Email" required>
+        </div>
+        <div class="label">
+            <label id="age-label">* Age:</label>
+        </div>
+        <div class="input">
+            <input type="number" class="input-field" id="age" min="1" max="110" placeholder="Enter Your Age" required>
+        </div>
+        <div class="label">
+            <label id="knowledge-label">* Which Option Best Describes Your Knowledge:</label>
+        </div>
+        <div class="input">
+            <select class="dropdown">
+                <option disabled value>Select an Option</option>
+                <option value="none">None</option>
+                <option value="youngling">Youngling</option>
+                <option value="padawan">Padawan</option>
+                <option value="knight">Knight</option>
+                <option value="master">Master</option>
+                <option value="grandmaster">Grand Master</option>
+            </select>
+        </div>
+        <div class="label">
+            <label id="recommend_label">* How likely would you recommend the Star Wars movies to a friend?</label>
+        </div>
+        <div class="input">
+            <input class="radio" type="radio" name="recommend" value="definitely">Definitely<br>
+            <input class="radio" type="radio" name="recommend" value="maybe">Maybe<br>
+            <input class="radio" type="radio" name="recommend" value="never">Never<br>
+            <input class="radio" type="radio" name="recommend" value="notsure">Not Sure<br>
+        </div>
+        <div class="label">
+            <label id="like_most">* What do you like most about the movies?</label>
+        </div>
+        <div class="input">
+            <select class="dropdown">
+                <option disabled value>Select an Option</option>
+                <option value="action">Action</option>
+                <option value="story">Story</option>
+                <option value="characters">Characters</option>
+                <option value="themes">Themes</option>
+                <option value="setting">Setting</option>
+            </select>
+          </div>
+          <div class="label">
+                <label id="fav_movie">* What are your favorite Star Wars movies? (Check all that apply)</label>
+          </div>
+          <div class="input" id='choice'>
+                <input class="checkbox" type="checkbox" name="movie" value="Episode 1">Episode 1: The Phantom Menace<br>
+                <input class="checkbox" type="checkbox" name="movie" value="Episode 2">Episode 2: Attack of the Clones<br>
+                <input class="checkbox" type="checkbox" name="movie" value="Episode 3">Episode 3: Revenge of the Sith<br>
+                <input class="checkbox" type="checkbox" name="movie" value="Episode 4">Episode 4: A New Hope<br>
+                <input class="checkbox" type="checkbox" name="movie" value="Episode 5">Episode 5: Empire Strikes Back<br>
+                <input class="checkbox" type="checkbox" name="movie" value="Episode 6">Episode 6: Return of the Jedi<br>
+                <input class="checkbox" type="checkbox" name="movie" value="Episode 7">Episode 7: Force Awakens<br>
+                <input class="checkbox" type="checkbox" name="movie" value="Episode 8">Episode 8: The Last Jedi<br>
+          </div>
+          <div class="label">
+              <label id="comment">Any additional thoughts here:</label>
+          </div>
+          <div class="input" id="text-box">
+                <textarea placeholder="Comments here.." rows="4" cols="50"></textarea>
+          </div>
+           <div class="container">
+            <img class="icon" src="Darth-Vader-icon.png" alt="Darth Vader Icon">
+            <button id="submit" type="submit">Submit</button>  
+            <img class="icon" src="Leia-icon.png" alt="Leia Icon">
+        </div>
+        </form>
+    
+    </main>  
+    
+    </body>
+
+</html>
